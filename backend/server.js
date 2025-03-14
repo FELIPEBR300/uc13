@@ -52,7 +52,7 @@ const dbUser = process.env.DB_USER
 const dbPassword = process.env.DB_PASS;
 
 // Define o Link
-const mongoURI = `mongodb+srv://${dbUser}:${dbPassword}@clusterapi.1j8mh.mongodb.net/?retryWrites=true&w=majority&appName=ClusterAPI`
+const mongoURI = `mongodb+srv://${dbUser}:${dbPassword}@clusterapi.khrbm.mongodb.net/?retryWrites=true&w=majority&appName=ClusterAPI`;
 
 // Porta que roda o servidor
 const port = 3000;
